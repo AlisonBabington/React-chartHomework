@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ChartList from '../components/ChartList';
 
 class ChartContainer extends Component{
 
@@ -18,7 +19,7 @@ class ChartContainer extends Component{
 
     render() {
         return (
-        <h1>I am a container</h1>
+        <ChartList songs = {this.state.songs}/>
         )
     }
 
