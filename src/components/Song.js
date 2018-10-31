@@ -17,7 +17,7 @@ const Song = ({song, position}) => {
       <audio controls className='audio'>
         <source src={audio} type = "audio/x-m4a"/>
         </audio>
-      <img className = "song-image" src={image} alt={`${title} from ${artist}`} width='170px' height='170px' />
+      <img className = "song-image" src={image} alt={`${title} from ${artist}`} width='40%' height='40%' />
       <h5>Genre: {genre}</h5>
       </div>
   )
