@@ -8,10 +8,9 @@ const ChartList = (props) => {
     })
     
     return (
-    <div>
-       <h2>Chart List</h2>
+    <React.Fragment>
        {songs}
-    </div>
+    </React.Fragment>
     )
 }
 

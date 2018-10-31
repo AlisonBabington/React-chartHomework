@@ -1,0 +1,14 @@
+div.song {
+
+    width: 30%;  
+    height: 20%; 
+    margin: auto;  
+    border: 5px #007991 solid;
+    border-radius: 5%;
+    margin: 5px;
+    text-align: center;
+}
+
+.song-image {
+    padding: 4%;
+}

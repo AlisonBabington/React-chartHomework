@@ -1,0 +1,14 @@
+
+div.chart-container {
+    padding: 40px;
+    border: 5px #439A86 solid;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+}
+
+h2 {
+    text-align: center;
+    margin-right: 30px;
+    width: 100%;
+}
